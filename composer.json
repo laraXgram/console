@@ -21,6 +21,9 @@
     "laraxgram/support": "^3.0"
   },
   "autoload": {
+    "files": [
+      "Prompts/helpers.php"
+    ],
     "psr-4": {
       "LaraGram\\Console\\": ""
     }
