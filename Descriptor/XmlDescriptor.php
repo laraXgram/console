@@ -124,7 +124,7 @@ class XmlDescriptor extends Descriptor
         $this->writeDocument($this->getCommandDocument($command, $options['short'] ?? false));
     }
 
-    protected function describeApplication( $application, array $options = []): void
+    protected function describeApplication($application, array $options = []): void
     {
         $this->writeDocument($this->getApplicationDocument($application, $options['namespace'] ?? null, $options['short'] ?? false));
     }
